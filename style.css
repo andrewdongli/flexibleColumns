@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    background-color: aqua;
+    flex:1;
+
+    padding:20px;
+    margin:5px;
+}
+
+.col-2{
+    background-color: aqua;
+    flex:2;
+
+    padding:20px;
+    margin:5px;
+}
+
+.col-3{
+    background-color: aqua;
+    flex:3;
+    
+    padding:20px;
+    margin:5px;
+}
